@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
 
-unsigned short ReadPersonWeight()
+void ReadPersonWeight(unsigned short &Weight)
 {
-	unsigned short Weight;
 	cin >> Weight;
-	return Weight;
+
 }

@@ -1,12 +1,13 @@
 #include <iostream>
+#include "header.h"
 using namespace std;
 
 
-void WritePersonData(string& height, string& weight, const unsigned short* age, string salary)
+void WritePersonData(string& height, string& weight, unsigned short* age)
 {
-	string tempAge();
+	string salary = "";
 	cin >> height;
 	cin >> weight;
-	cin >> tempAge;
+	cin >> *age;
 	cin >> salary;
 }

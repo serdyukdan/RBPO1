@@ -128,14 +128,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="RBPO1.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="ReadPersonAge.cpp" />
-    <ClCompile Include="ReadPersonData.cpp" />
+    <ClCompile Include="ReadPersonDataV1.cpp" />
+    <ClCompile Include="ReadPersonDataV2.cpp" />
     <ClCompile Include="ReadPersonHeight.cpp" />
     <ClCompile Include="ReadPersonName.cpp" />
     <ClCompile Include="ReadPersonSalary.cpp" />
     <ClCompile Include="ReadPersonWeight.cpp" />
     <ClCompile Include="WritePersonData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

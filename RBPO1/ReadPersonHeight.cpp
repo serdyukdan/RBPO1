@@ -1,9 +1,9 @@
 #include <iostream>
+#include "header.h"
 using namespace std;
 
-unsigned short ReadPersonHeight()
+void ReadPersonHeight()
 {
-	unsigned short Height;
-	cin >> Height;
-	return Height;
+	unsigned short height = 0;
+	cin >> height;
 }

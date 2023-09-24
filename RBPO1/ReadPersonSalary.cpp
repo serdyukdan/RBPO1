@@ -1,9 +1,7 @@
 #include <iostream>
 using namespace std;
 
-double* ReadPersonSalary()
+void ReadPersonSalary(double* Salary)
 {
-	double* Salary;
-	cin >> Salary;
-	return Salary;
+	cin >> *Salary;
 }
