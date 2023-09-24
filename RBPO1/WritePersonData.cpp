@@ -1,13 +1,14 @@
-#include <iostream>
+
 #include "header.h"
-using namespace std;
 
 
-void WritePersonData(string& height, string& weight, unsigned short* age)
+
+void WritePersonData(string& name, string& height, string& weight, unsigned short* age)
 {
-	string salary = "";
-	cin >> height;
-	cin >> weight;
-	cin >> *age;
-	cin >> salary;
+	cout << endl << "================================================================" << endl;
+	cout << "Person's name:" << name << endl;
+	cout << "Person's height:" << height << endl;
+	cout << "Person's weight:" << weight << endl;
+	cout << "Person's age:" << *age << endl;
+	cout << "Person's salary:" << salary << endl;
 }

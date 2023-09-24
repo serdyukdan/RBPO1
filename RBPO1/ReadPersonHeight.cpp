@@ -1,9 +1,8 @@
-#include <iostream>
+
 #include "header.h"
-using namespace std;
 
 void ReadPersonHeight()
 {
-	unsigned short height = 0;
+	cout << "Enter person's height:";
 	cin >> height;
 }
